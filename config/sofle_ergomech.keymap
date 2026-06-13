@@ -97,7 +97,7 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans    &trans    &trans     &trans    &trans
-&trans      &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &PRRCNT       &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &trans
+&trans      &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &PRCNT       &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &trans
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &kp HOME      &kp PG_UP     &kp MINUS  &kp EQUAL &kp GRAVE &kp LBKT   &kp RBKT  &kp BSLH
 &trans      &trans        &trans        &trans        &kp END       &kp PG_DN     &trans     &trans    &trans    &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans    &trans    &trans     &trans
