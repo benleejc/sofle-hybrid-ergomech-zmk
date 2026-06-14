@@ -44,7 +44,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "default";
+            label = "Ben";
 
             // ------------------------------------------------------------------------------------------------------------
             // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   | BKSPC |
@@ -66,7 +66,7 @@
         };
 
         lower_layer {
-            label = "lower";
+            label = "low";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@
         };
 
         raise_layer {
-            label = "raise";
+            label = "high";
 
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
@@ -118,7 +118,7 @@
             // |               |       |       |       |       |       |      | |      |      |       |       |       |       |       |
             // |               |       |       |       |       |       |      | |      |      |       |       |
 
-            label = "adjust";
+            label = "adj";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &trans  &trans   &trans   &trans  &trans  &trans
 &ext_power EP_TOG  &trans           &trans           &trans           &trans           &trans           &trans  &trans   &trans   &trans  &trans  &trans
