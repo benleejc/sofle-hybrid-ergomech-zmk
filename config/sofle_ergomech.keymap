@@ -31,33 +31,12 @@
         };
     };	
 
-	&mmv {
-    time-to-max-speed-ms = <40>;
-    acceleration-exponent = <1>;
-    };
-
 	behaviors {
         mousescroll: mousescroll {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 			tap-ms = <20>;
-        };
-        mt: mod_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-            display-name = "Mod-Tap";
-        };
-        lt: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&kp>;
-            display-name = "Layer-Tap";
         };
     };
 
@@ -152,4 +131,9 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
+};
+
+&mmv {
+    time-to-max-speed-ms = <40>;
+    acceleration-exponent = <1>;
 };
